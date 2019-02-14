@@ -7,7 +7,7 @@ read -r -p 'Last Name: ' lname
 
 read -r -p 'Email: ' email
 
-# Tell Git who you are i.e. <FIRST_NAME><SPACE><LAST_NAME><SPACE><YOUR_EMAIL>
+# Tell Git who you are
 git config --global user.name "$fname $lname"
 
 git config --global user.email "$email"
