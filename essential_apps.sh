@@ -9,3 +9,5 @@ sudo apt-get install ntfs-3g -y
 # EXFAT Support
 sudo apt-get install exfat-fuse exfat-utils -y
 
+# Dialog
+sudo apt-get install dialog
